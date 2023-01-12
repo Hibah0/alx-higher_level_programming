@@ -6,7 +6,8 @@ if __name__ == "__main__":
         print("0 arguments.")
     else:
         if total == 2:
-            print("{} argument:".format(total - 1))        else:
+            print("{} argument:".format(total - 1))
+        else:
             print("{} arguments:".format(total - 1))
         for i in range(1, total):
             print("{}: {}".format(i, sys.argv[i]))
